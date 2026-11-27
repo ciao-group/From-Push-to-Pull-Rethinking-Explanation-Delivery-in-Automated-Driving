@@ -1,0 +1,36 @@
+# Operating-system and editor files
+.DS_Store
+.idea/
+.vscode/
+*~
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local Python environments
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
